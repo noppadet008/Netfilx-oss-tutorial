@@ -11,6 +11,7 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 @RequestMapping(value = "products")
 public class ProductController {
+
     private final RestTemplate restTemplate;
 
     @Autowired
